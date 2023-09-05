@@ -1,0 +1,28 @@
+{
+    "HOST": "http://localhost",
+    "PROTOCOL": "http",
+    "PORT": 3500,
+    "IsProduction": false,
+    "IsEnableSwagger": false,
+    "LOG_LEVEL": "debug",
+    "AWS_DEFAULT_REGION": "ap-northeast-1",
+    "LOG_GROUP": "cathay-gp-qa",
+    "LOG_STREAM": "authorization-gateway",
+    "ORM_CONFIG": {
+        "mysql": {
+            "host": "pentest-mysql.cluster-cst5bfjfntp8.ap-northeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "username": "mwuser_qa",
+            "password": "zU82I*dq",
+            "database": "offchain_db_qa",
+            "connectionLimit": 10,
+            "synchronize": false,
+            "logging": false
+        }
+    },
+    "REDIS": {
+      "HOST": "gp-qa-apn1-elasticache.gwb6jj.clustercfg.apne1.cache.amazonaws.com",
+      "PORT": 6379,
+      "TTL": 300
+    }
+}
